@@ -433,3 +433,4 @@ bool Md5FileCpp(const std::string& filepath, std::string& strMd5)
 //	system("pause");
 //	return 0;
 //}
+
