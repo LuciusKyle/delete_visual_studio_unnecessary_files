@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1120_delete_visual_studio_unnecessary_files", "1120_delete_visual_studio_unnecessary_files\1120_delete_visual_studio_unnecessary_files.vcxproj", "{7FCF4958-4B00-4E27-9899-74961F1BE126}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl_learning", "openssl_learning\openssl_learning.vcxproj", "{94C50EBD-D694-459E-AB9D-BC12628EA6E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "delete_duplicated_files", "delete_duplicated_files\delete_duplicated_files.vcxproj", "{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Debug|x64.ActiveCfg = Debug|x64
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Debug|x64.Build.0 = Debug|x64
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Debug|x86.Build.0 = Debug|Win32
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Release|x64.ActiveCfg = Release|x64
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Release|x64.Build.0 = Release|x64
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Release|x86.ActiveCfg = Release|Win32
+		{7FCF4958-4B00-4E27-9899-74961F1BE126}.Release|x86.Build.0 = Release|Win32
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Debug|x64.ActiveCfg = Debug|x64
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Debug|x64.Build.0 = Debug|x64
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Debug|x86.Build.0 = Debug|Win32
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Release|x64.ActiveCfg = Release|x64
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Release|x64.Build.0 = Release|x64
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Release|x86.ActiveCfg = Release|Win32
+		{94C50EBD-D694-459E-AB9D-BC12628EA6E0}.Release|x86.Build.0 = Release|Win32
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Debug|x64.ActiveCfg = Debug|x64
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Debug|x64.Build.0 = Debug|x64
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Debug|x86.Build.0 = Debug|Win32
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Release|x64.ActiveCfg = Release|x64
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Release|x64.Build.0 = Release|x64
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Release|x86.ActiveCfg = Release|Win32
+		{F3EE77E5-97C2-435D-B2D8-0BBE4084C8A0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D0DD198-3063-403A-8326-C0318E279AA4}
+	EndGlobalSection
+EndGlobal
