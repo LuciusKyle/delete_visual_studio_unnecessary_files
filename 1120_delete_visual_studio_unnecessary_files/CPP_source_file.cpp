@@ -24,71 +24,32 @@ void validate_file(const boost::filesystem::path &file_path)
 {
 	if (file_path.has_extension()) {
 		auto var = file_path.extension().wstring();
-		if (var == L".log") {
+		if (var == L".log"
+			|| var == L".obj"
+			|| var == L".pdb"
+			|| var == L".ilk"
+			|| var == L".exp"
+			|| var == L".lib"
+			|| var == L".aps"
+			|| var == L".lastbuildstate"
+			|| var == L".tlog"
+			|| var == L".idb"
+			|| var == L".iobj"
+			|| var == L".ipdb"
+			|| var == L".ipch"
+			|| var == L".VC") {
 			boost::filesystem::remove(file_path);
 			return;
 		}
-		else if (var == L".obj") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".pdb") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".ilk") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".exp") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".lib") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".aps") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".lastbuildstate") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".tlog") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".idb") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".iobj") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".ipdb") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".ipch") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".VC") {
-			boost::filesystem::remove(file_path);
-			return;
-		}
-		else if (var == L".exe") {
-			try {
-				boost::filesystem::remove(file_path);
-			}
-			catch (...) {
-				//do nothing!
-			}
-			return;
-		}
+		//else if (var == L".exe") {
+		//	try {
+		//		boost::filesystem::remove(file_path);
+		//	}
+		//	catch (...) {
+		//		//do nothing!
+		//	}
+		//	return;
+		//}
 	}
 }
 
